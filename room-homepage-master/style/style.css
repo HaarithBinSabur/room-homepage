@@ -1,0 +1,178 @@
+/* My Default displays */
+
+/*
+img display
+ */
+
+ img{
+    display: inline-block;
+    margin: 0;
+    overflow: hidden;
+ }
+/*
+headers 
+ */
+ h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+ }
+
+ /* 
+ line heights
+  */
+p{
+    line-height: 20px;
+}
+/*
+list and anchor tags  
+ */
+ li{
+    list-style: none;
+ }
+
+ a{
+    text-decoration: none;
+ }
+
+
+ /* General styles */
+
+ body{
+    margin: 0;
+    height: 100vh;
+    font-family: 'League Spartan', sans-serif;
+    overflow: hidden;
+ }
+
+ /*
+ MAIN 
+  */
+#main{
+    overflow: hidden;
+    margin:0;
+    height: 70%;
+    display: flex;
+    align-items: center;
+}
+
+
+/*
+RIGHT SIDE 
+ */
+#main-right-side{
+    width: 60%;
+}
+
+/*
+NAVBAR 
+ */
+#nav-bar > ul{
+   
+    position:fixed;
+    display: flex;
+    align-items: center;
+}
+
+.main-nav-list{
+    margin: 18px;
+    color: white;
+}
+
+.main-nav-list.header{
+   font-size:20px ;
+}
+
+.main-nav-list > a{
+    color: white;
+}
+
+/*
+LEFT SIDE 
+ */
+#main-left-side{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#left-side-header{
+    font-size: 50px;
+}
+#main-left-para{
+    color: hsl(0, 0%, 68%);
+    width: 93%;
+    margin-top: 20px;
+}
+
+.main-left-span{
+    letter-spacing:8px;
+    margin-top: 20px;
+}
+
+/*
+ARROW SLIDE BUTTONS 
+ */
+
+ .main-arrow-images{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 20%;
+    top: 200px;
+    right: 500px;
+
+
+}
+ #arrow-image-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 90px;
+    background-color: black;
+ }
+
+ #arrow-image-right:hover{
+    background-color: hsl(0, 0%, 28%);
+ }
+ #arrow-image-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 90px;
+    background-color: black;
+
+ }
+ #arrow-image-left:hover{
+    background-color: hsl(0, 0%, 28%);
+ }
+/*
+ BOTTOM SIDE 
+ */
+
+ #bottom-section{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 35%;
+ }
+
+ #middle-bottom-div{
+    width: 40%;
+    padding:3rem;
+    
+ }
+
+ #middle-bottom-div-header{
+    letter-spacing: 8px;
+ }
+ #middle-bottom-div-para{
+    margin-top:20px;
+    width: 85%;
+    color: hsl(0, 0%, 68%);
+ }
+
